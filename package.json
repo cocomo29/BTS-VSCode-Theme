@@ -1,0 +1,36 @@
+{
+    "name": "bts-theme",
+    "displayName": "BTS Theme",
+    "description": "BTS inspired Visual Studio Code Theme ",
+    "version": "0.0.1",
+    "publisher": "cocomo",
+	"repository":{
+		"type":"git",
+		"url":"https://github.com/cocomo29/BTS-VS-Code-Theme"
+	},
+    "keywords": [
+		"bts",
+		"theme",
+		"dark",
+		"purple",
+		"cocomo",
+		"bts theme",
+		"bts vs code theme",
+		"purple theme"
+	],
+    "engines": {
+        "vscode": "^1.63.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "BTS Theme",
+                "uiTheme": "vs-dark",
+                "path": "./themes/BTS Theme-color-theme.json"
+            }
+        ]
+    }
+}
